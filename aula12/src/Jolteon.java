@@ -1,8 +1,8 @@
 public class Jolteon extends Eevee {
 
     // Construtor
-    public Jolteon(String tipo, Double peso, int altura, int hp) {
-        super(tipo, peso, altura, hp);
+    public Jolteon(String nome, String tipo, Double peso, int altura, int hp) {
+        super(nome,tipo, peso, altura, hp);
     }
     
     @Override

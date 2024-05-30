@@ -1,8 +1,8 @@
 public class Umbreon  extends Eevee {
 
     // Construtor
-    public Umbreon(String tipo, Double peso, int altura, int hp) {
-        super(tipo, peso, altura, hp);
+    public Umbreon(String nome, String tipo, Double peso, int altura, int hp) {
+        super(nome, tipo, peso, altura, hp);
     }
 
     @Override

@@ -1,7 +1,16 @@
 public class Eevee {
+    String nome;
     String tipo;
     Double peso;
     int altura;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
     
     public String getTipo() {
         return tipo;
@@ -37,8 +46,8 @@ public class Eevee {
 
     int hp;
 
-    // Construtor
-    public Eevee(String tipo, Double peso, int altura, int hp) {
+    public Eevee(String nome, String tipo, Double peso, int altura, int hp) {
+        this.nome = nome;
         this.tipo = tipo;
         this.peso = peso;
         this.altura = altura;
@@ -59,5 +68,17 @@ public class Eevee {
 
     public String Defesa2(){
         return "Super defesa";
+    }
+
+    public void imprimir() {
+        System.out.println("Detalhes do Pokémon: " + nome);
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Peso: " + peso);
+        System.out.println("Altura: " + altura);
+        System.out.println("HP: " + hp);
+        System.out.println("Ataque: " + Ataque());
+        System.out.println("Especial: " + Especial());
+        System.out.println("Defesa: " + Defesa());
+        System.out.println("---------------------------");
     }
 }

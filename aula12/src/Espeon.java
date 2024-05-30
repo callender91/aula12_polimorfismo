@@ -1,8 +1,8 @@
 public class Espeon extends Eevee {
 
     // Construtor
-    public Espeon(String tipo, Double peso, int altura, int hp) {
-        super(tipo, peso, altura, hp);
+    public Espeon(String nome, String tipo, Double peso, int altura, int hp) {
+        super(nome, tipo, peso, altura, hp);
     }
 
     @Override

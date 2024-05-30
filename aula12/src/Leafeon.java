@@ -1,8 +1,8 @@
 public class Leafeon  extends Eevee {
 
     // Construtor
-    public Leafeon(String tipo, Double peso, int altura, int hp) {
-        super(tipo, peso, altura, hp);
+    public Leafeon(String nome, String tipo, Double peso, int altura, int hp) {
+        super(nome, tipo, peso, altura, hp);
     }
     
     @Override

@@ -1,8 +1,8 @@
 public class Glaceon extends Eevee {
 
     // Construtor
-    public Glaceon(String tipo, Double peso, int altura, int hp) {
-        super(tipo, peso, altura, hp);
+    public Glaceon(String nome, String tipo, Double peso, int altura, int hp) {
+        super(nome, tipo, peso, altura, hp);
     }
     
     @Override
